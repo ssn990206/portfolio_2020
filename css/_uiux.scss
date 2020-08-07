@@ -1,7 +1,6 @@
 .classifyClickedU {
     width: 120px;
     height: 60px;
-    border-top: $border;
     border-right: $border;
     border-bottom: $border;
     text-align: center;
@@ -14,7 +13,6 @@
 .classifyClickedL {
     width: 120px;
     height: 60px;
-    border-top: $border;
     border-right: $border;
     border-bottom: $border;
     text-align: center;
@@ -27,7 +25,6 @@
 .classifyClickedB {
     width: 120px;
     height: 60px;
-    border-top: $border;
     border-right: $border;
     border-bottom: $border;
     text-align: center;
@@ -40,7 +37,6 @@
 .classifyClickedO {
     width: 120px;
     height: 60px;
-    border-top: $border;
     border-right: $border;
     border-bottom: $border;
     text-align: center;
@@ -61,8 +57,31 @@
 }
 
 @media (max-width: 768px){
+    .classifyClickedU{
+        border-top: $border;
+    }
+    .classifyClickedB{
+        border-top: $border;
+    }
+    .classifyClickedL{
+        border-top: $border;
+    }
+    .classifyClickedO{
+        border-top: $border;
+    }
     .swap{
-        width: 90%;
+        width: 0%;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 414px){
+    .classifyClicked {
+        width: 25%;
+        font-size: 16px;
+        border-left: $border;
+        height: 24px;
+        line-height: 24px;
+        margin: 2.5%;
     }
 }
