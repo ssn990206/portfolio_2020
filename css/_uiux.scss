@@ -6,7 +6,6 @@
     text-align: center;
     line-height: 60px;
     font-size: $bigFont;
-    // color: $b;
     background-color: $or;
     color: #fff;
 }
@@ -18,7 +17,6 @@
     text-align: center;
     line-height: 60px;
     font-size: $bigFont;
-    // color: $b;
     background-color: $bl;
     color: #fff;
 }
@@ -30,7 +28,6 @@
     text-align: center;
     line-height: 60px;
     font-size: $bigFont;
-    // color: $b;
     background-color: $ye;
     color: #fff;
 }
@@ -42,7 +39,6 @@
     text-align: center;
     line-height: 60px;
     font-size: $bigFont;
-    // color: $b;
     background-color: $gr;
     color: #fff;
 }
@@ -70,7 +66,7 @@
         border-top: $border;
     }
     .swap{
-        width: 0%;
+        width: 90%;
         margin: 0 auto;
     }
 }
@@ -80,8 +76,11 @@
         width: 25%;
         font-size: 16px;
         border-left: $border;
-        height: 24px;
+        height: 28px;
         line-height: 24px;
         margin: 2.5%;
+    }
+    .swap{
+        width: 100%;
     }
 }
