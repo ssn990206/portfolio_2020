@@ -47,34 +47,34 @@ image{
     color: $b;
 }
 
-.pagination .classify:nth-child(1){
+.classify:nth-child(1){
     color: $or;
 }
-.pagination .classify:nth-child(1):hover{
+.classify:nth-child(1):hover{
     cursor: pointer;
     background-color: $or;
     color: #fff;
 }
-.pagination .classify:nth-child(2){
+.classify:nth-child(2){
     color: $ye;
 }
-.pagination .classify:nth-child(2):hover{
+.classify:nth-child(2):hover{
     cursor: pointer;
     background-color: $ye;
     color: #fff;
 }
-.pagination .classify:nth-child(3){
+.classify:nth-child(3){
     color: $bl;
 }
-.pagination .classify:nth-child(3):hover{
+.classify:nth-child(3):hover{
     cursor: pointer;
     background-color: $bl;
     color: #fff;
 }
-.pagination .classify:nth-child(4){
+.classify:nth-child(4){
     color: $gr;
 }
-.pagination .classify:nth-child(4):hover{
+.classify:nth-child(4):hover{
     cursor: pointer;
     background-color: $gr;
     color: #fff;

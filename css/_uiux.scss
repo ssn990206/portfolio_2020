@@ -1,4 +1,68 @@
-.classifyClickedU{
+.classifyClickedU {
+    width: 120px;
+    height: 60px;
+    border-top: $border;
+    border-right: $border;
+    border-bottom: $border;
+    text-align: center;
+    line-height: 60px;
+    font-size: $bigFont;
+    // color: $b;
     background-color: $or;
     color: #fff;
+}
+.classifyClickedL {
+    width: 120px;
+    height: 60px;
+    border-top: $border;
+    border-right: $border;
+    border-bottom: $border;
+    text-align: center;
+    line-height: 60px;
+    font-size: $bigFont;
+    // color: $b;
+    background-color: $bl;
+    color: #fff;
+}
+.classifyClickedB {
+    width: 120px;
+    height: 60px;
+    border-top: $border;
+    border-right: $border;
+    border-bottom: $border;
+    text-align: center;
+    line-height: 60px;
+    font-size: $bigFont;
+    // color: $b;
+    background-color: $ye;
+    color: #fff;
+}
+.classifyClickedO {
+    width: 120px;
+    height: 60px;
+    border-top: $border;
+    border-right: $border;
+    border-bottom: $border;
+    text-align: center;
+    line-height: 60px;
+    font-size: $bigFont;
+    // color: $b;
+    background-color: $gr;
+    color: #fff;
+}
+.swap {
+    width: 70%;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width: 768px){
+    .swap{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
