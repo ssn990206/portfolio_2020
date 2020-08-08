@@ -82,7 +82,7 @@ image{
 
 .content{
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .person{
@@ -153,11 +153,12 @@ image{
 
 .word{
     width: 580px;
-    height: 640px;
+    height: 700px;
     margin-left: 40px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .tittle{
@@ -209,6 +210,7 @@ image{
     }
     .logo{
         border-left: $border;
+        border-bottom: 0;
         margin: 0 auto;
     }
     .classi{
@@ -234,10 +236,10 @@ image{
     .word{
         margin-top: 30px;
         width: 80%;
-        height: 640px;
+        height: 700px;
         margin-left: 0px;
         margin: 0 auto;
-        justify-content: space-around;
+        // justify-content: flex-start;
     }
 }
 
@@ -265,6 +267,7 @@ image{
         width: 70%;  
     }
     .word{
-        height: 1350px;
+        height: 1300px;
+        justify-content: flex-start;
     }
 }
