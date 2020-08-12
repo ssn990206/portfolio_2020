@@ -42,14 +42,36 @@
     background-color: $gr;
     color: #fff;
 }
+.work{
+    width: 840px;    
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.workInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.workName{
+    width: 200px;
+    height: 20%;
+    border: $border;
+}
+.workIntroduce{
+    width: 200px;
+    height: 75%;
+    border: $border;
+}
 .swap {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 15px;
     padding-left: 15px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 30px;
+    margin-right: 10px;
     width: 70%;
     border: $border;
 }
@@ -74,11 +96,32 @@
         border-top: $border;
     }
     .swap{
-        border: 0px;
+        border: $border;
         width: 90%;
-        padding: 0;
+        padding: 15px 10px; 
         margin: 0 auto;
         margin-top: 30px;
+    }
+    .work{
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+        flex-direction: column;
+    }
+    .workInfo{
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+    .workName{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .workIntroduce{
+        margin-top: 30px;
+        width: 100%;
+        padding: 10px 40px 10px 40px;
     }
 }
 
@@ -92,6 +135,9 @@
         margin: 2.5%;
     }
     .swap{
+        width: 100%;
+    }
+    .workInfo{
         width: 100%;
     }
 }
