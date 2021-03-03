@@ -42,8 +42,8 @@
     background-color: $gr;
     color: #fff;
 }
-.work{
-    width: 840px;    
+.work {
+    width: 840px;
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -51,17 +51,19 @@
     display: flex;
     justify-content: space-between;
 }
-.workInfo{
+.workInfo {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.workName{
+.workName {
     width: 200px;
     height: 20%;
     border: $border;
+    font-size: $mFont;
+    text-align: center;
 }
-.workIntroduce{
+.workIntroduce {
     width: 200px;
     height: 75%;
     border: $border;
@@ -82,50 +84,50 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-@media (max-width: 768px){
-    .classifyClickedU{
+@media (max-width: 768px) {
+    .classifyClickedU {
         border-top: $border;
     }
-    .classifyClickedB{
+    .classifyClickedB {
         border-top: $border;
     }
-    .classifyClickedL{
+    .classifyClickedL {
         border-top: $border;
     }
-    .classifyClickedO{
+    .classifyClickedO {
         border-top: $border;
     }
-    .swap{
+    .swap {
         border: $border;
         width: 90%;
-        padding: 15px 10px; 
+        padding: 15px 10px;
         margin: 0 auto;
         margin-top: 30px;
     }
-    .work{
+    .work {
         margin: 0 auto;
         padding: 0;
         width: 90%;
         flex-direction: column;
     }
-    .workInfo{
+    .workInfo {
         width: 90%;
         margin: 0 auto;
         padding: 30px 0px;
     }
-    .workName{
+    .workName {
         width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .workIntroduce{
+    .workIntroduce {
         margin-top: 30px;
         width: 100%;
         padding: 10px 40px 10px 40px;
     }
 }
 
-@media (max-width: 414px){
+@media (max-width: 414px) {
     .classifyClicked {
         width: 25%;
         font-size: 16px;
@@ -134,10 +136,10 @@
         line-height: 24px;
         margin: 2.5%;
     }
-    .swap{
+    .swap {
         width: 100%;
     }
-    .workInfo{
+    .workInfo {
         width: 100%;
     }
 }
