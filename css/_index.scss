@@ -135,15 +135,17 @@ image {
 }
 .nameCenter:nth-child(3) {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 36px;
-    background-color: $or;
-    color: #f5f5f5;
+    border: $ye 3px solid;
+    // background-color: $or;
+    color: $ye;
     border-radius: 5px;
 }
 .nameCenter:nth-child(3):hover {
     background-color: $ye;
     cursor: pointer;
+    color: #fff;
 }
 .contact {
     width: 100%;
