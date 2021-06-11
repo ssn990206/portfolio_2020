@@ -220,6 +220,16 @@ image {
     margin-bottom: 0;
 }
 
+a{
+    .tittle1{
+        color: $bl;
+    }
+    
+    &:hover{
+        text-decoration: none;
+    }
+}
+
 @media (max-width: 768px) {
     .main {
         width: 80%;
