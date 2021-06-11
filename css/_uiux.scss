@@ -69,6 +69,13 @@
     border: $border;
     padding: 8px;
     font-size: 15px;
+    a {
+        color: $or;
+            
+        &:hover {
+            color: $or;
+        }
+    }
 }
 .swap {
     padding-top: 40px;
