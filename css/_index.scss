@@ -159,6 +159,12 @@ image {
     margin-bottom: 15px;
     color: $b;
     // line-height: 24px;
+    a {
+        color: $b;
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 .contactInfo svg {
@@ -212,14 +218,6 @@ image {
 
 .group:nth-child(4) {
     margin-bottom: 0;
-}
-
-a:link{
-    color: $bl;
-}
-
-a:visited{
-    color: #333;
 }
 
 @media (max-width: 768px) {
